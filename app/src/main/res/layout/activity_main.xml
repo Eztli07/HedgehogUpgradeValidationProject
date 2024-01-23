@@ -4,24 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFA5E1"
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#B86AFF"
         android:text="The Button"
+        android:fontFamily="monospace"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/clicked" />
+        app:layout_constraintTop_toBottomOf="@+id/clicked"
+        app:layout_constraintVertical_bias="0.336" />
 
     <TextView
         android:id="@+id/clicked"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="204dp"
-        android:text="You have clicked the button 0 time(s)."
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:text="You have clicked The Button 0 time(s)."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
