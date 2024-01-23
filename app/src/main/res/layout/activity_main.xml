@@ -15,4 +15,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Button"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You have clicked the button 0 time(s)."
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="117dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
